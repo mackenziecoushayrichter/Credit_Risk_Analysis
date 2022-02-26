@@ -16,5 +16,23 @@
     * **Recall:**
       * high-risk: 69%
       * low-risk: 60%
- ![]('images/random_over_sampling.png')
+ ![](images/random_over_sampling.png)
+ ### SMOTE Oversampling
+ * **Balanced Accuracy Score:** 65%
+   * **Precision Score:** 
+     * 1% of actual high-risk loans were predicted high risk
+     * 99% of actual low-risk loans were predicted low risk
+    * **Recall:**
+      * high-risk: 62%
+      * low-risk: 68%
+ ![](images/SMOTE.png)
+ ### ClusterCentroids Undersampling
+ * **Balanced Accuracy Score:** 54%
+   * **Precision Score:** 
+     * 1% of actual high-risk loans were predicted high risk
+     * 99% of actual low-risk loans were predicted low risk
+    * **Recall:**
+      * high-risk: 69%
+      * low-risk: 40%
+ ![](images/Cluster_Centroids.png)
   
