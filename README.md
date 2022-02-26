@@ -8,5 +8,13 @@
 * Finally I compared 2 models that reduce bias the (EasyEnsembleClassifier and BalancedRandomForestClassifier) to predict credit risk
 ## Results
 * These are the results I found from each of the six machine learning models that I employed
-  * **RandomOverSampler**
-  * 
+  ### RandomOverSampler
+   * **Balanced Accuracy Score:** 65%
+   * **Precision Score:** 
+     * 1% of actual high-risk loans were predicted high risk
+     * 99% of actual low-risk loans were predicted low risk
+    * **Recall:**
+      * high-risk: 69%
+      * low-risk: 60%
+ ![]('images/random_over_sampling.png')
+  
