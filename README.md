@@ -35,4 +35,30 @@
       * high-risk: 69%
       * low-risk: 40%
  ![](images/Cluster_Centroids.png)
-  
+  ### SMOTEENN Combination Over and Under Sampling
+ * **Balanced Accuracy Score:** 67%
+   * **Precision Score:** 
+     * 1% of actual high-risk loans were predicted high risk
+     * 100% of actual low-risk loans were predicted low risk
+    * **Recall:**
+      * high-risk: 78%
+      * low-risk: 55%
+ ![](images/SMOTEENN.png)
+ ### BalancedRandomForest Classifier
+ * **Balanced Accuracy Score:** 68%
+   * **Precision Score:** 
+     * 88% of actual high-risk loans were predicted high risk
+     * 100% of actual low-risk loans were predicted low risk
+    * **Recall:**
+      * high-risk: 37%
+      * low-risk: 100%
+ ![](images/random_forest.png)
+### EasyEnsemble Classifier
+ * **Balanced Accuracy Score:** 68%
+   * **Precision Score:** 
+     * 88% of actual high-risk loans were predicted high risk
+     * 100% of actual low-risk loans were predicted low risk
+    * **Recall:**
+      * high-risk: 37%
+      * low-risk: 100%
+ ![](images/easy_ensemble.png)
