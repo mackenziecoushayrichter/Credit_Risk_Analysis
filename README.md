@@ -62,3 +62,7 @@
       * high-risk: 37%
       * low-risk: 100%
  ![](images/easy_ensemble.png)
+## Summary
+* In summary the Easy Ensemble Classifier and Balanced Random Forest Classifiers produced the highest balanced accuracy score of 68%
+* They both also produced the highest precision scores.  
+* I would recommend that to predict credit risk one should use either of these models, because the produced the highest accuracy scores but also had a good balance of the recall and precision scores as well.
